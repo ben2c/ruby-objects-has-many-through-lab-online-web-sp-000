@@ -21,4 +21,9 @@ class Doctor
     end
   end
 
+  def patients
+    Appointment.all.each do |patient|
+      patient
+    end
+  end
 end
