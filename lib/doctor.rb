@@ -23,7 +23,7 @@ class Doctor
 
   def patients
     Appointment.all.each do |patient|
-      patient
+      patient.name
     end
   end
 end
