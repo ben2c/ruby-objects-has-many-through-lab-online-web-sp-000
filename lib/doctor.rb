@@ -15,4 +15,10 @@ class Doctor
     Appointment.new(date, patient, self)
   end
 
+  def appointments
+    self.all.select do |app|
+      app.name == self
+    end
+  end
+  
 end
