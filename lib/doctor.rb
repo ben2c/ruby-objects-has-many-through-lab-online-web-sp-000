@@ -20,5 +20,5 @@ class Doctor
       app.name == self
     end
   end
-  
+
 end
